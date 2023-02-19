@@ -25,3 +25,7 @@ Single joint control of the robot arm to throw a ball as far as possible. This t
 ### Task 2
 
 Double-joint control to throw a ball such that it hits a brick on the table.
+
+## Experiments
+
+Modifying contents of the agent_params.json and using the train script you could evaluate how different hyperparameters affect the performance of the robot. RL algorithms used in this project are PPO and SAC. Both appeared to be extremely sensitive to the choice of hyperparameters.
