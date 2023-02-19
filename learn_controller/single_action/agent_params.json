@@ -1,0 +1,15 @@
+{
+    "render": false,
+    "policy": "MlpPolicy",
+    "net_arch": [
+        8,16
+    ],
+    "buffer_size":8,
+    "learning_starts":8,
+    "learning_rate": 0.01,
+    "batch_size": 16,
+    "train_freq": 8,
+    "total_timesteps": 192,
+    "tau": 0.5,
+    "verbose": 2
+}
